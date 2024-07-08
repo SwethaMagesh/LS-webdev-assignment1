@@ -1,0 +1,159 @@
+<!-- to do 1 sections -->
+<!-- to do 2 link css -->
+<!-- to do 3 link js -->
+<!-- everything responsive -->
+<!-- - NavBar  + title
+- Game overview section
+    - History
+    - Basic Rules
+- Highlights
+    - Memorable moments, 
+    - Keyplayers
+    - Important tournaments/events
+- How to get started
+    - new players
+    - Equipments
+    - Basic strategies
+    - Beginner tips
+- Quiz/slideshow/dynamic JS content
+- Footer 
+    - forums? official sites
+    - copyright
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tennis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <header>
+        <!-- stick nav to top -->
+    <nav class="navbar" >
+        <a href="#home">Home</a>
+        <a href="#highlights">Highlights</a>
+        <a href="#getstarted">Get Started</a>
+        <a href="#gallery">Gallery</a>
+    </nav>
+    </header>
+
+    <section id="home">
+        <h2>Game Overview</h2>
+        <p>Tennis is a racket sport that can be played individually against a single opponent (singles) or between two
+            teams of two players each (doubles). Each player uses a tennis racket that is strung with cord to strike a
+            hollow rubber ball covered with felt over or around a net and into the opponent's court. The object of the
+            game is to maneuver the ball in such a way that the opponent is not able to play a valid return. The player
+            who is unable to return the ball will not gain a point, while the opposite player will.</p>
+    </section>
+    <!-- <section id="padder"></section> -->
+
+    <section id="highlights" class="highlights">
+        <h2>Highlights</h2>
+        <h2>Big 4 Players</h2>
+        <ul>
+            <li><strong>Roger Federer:</strong> Known as "The Maestro," Federer holds the record for the most Wimbledon
+                titles in history.</li>
+            <li><strong>Rafael Nadal:</strong> Dubbed the "King of Clay," Nadal has an unprecedented 14 French Open
+                titles.</li>
+            <li><strong>Novak Djokovic:</strong> The "Djoker" has achieved a Career Grand Slam twice, a feat few have
+                accomplished.</li>
+            <li><strong>Andy Murray:</strong> Murray ended Great Britain's 77-year wait for a Wimbledon men's singles
+                champion in 2013.</li>
+        </ul>
+        <h2>Grand Slam Tournaments</h2>
+        <ul>
+            <li><strong>Wimbledon:</strong> The only Grand Slam played on grass, it's known for its strict dress code
+                requiring players to wear all white.</li>
+            <li><strong>US Open:</strong> Held in New York, it's the final Grand Slam of the year and features the
+                largest tennis stadium in the world, Arthur Ashe Stadium.</li>
+            <li><strong>French Open (Roland-Garros):</strong> Famous for its red clay courts, it's considered the most
+                physically demanding Grand Slam due to its slower surface.</li>
+            <li><strong>Australian Open:</strong> Known as the "Happy Slam," it is the first Grand Slam of the year and
+                features innovative extreme heat policies for player safety.</li>
+        </ul>
+
+    </section>
+    <!-- <section id="padder"></section> -->
+
+    <section id="getstarted" class="shots-section">
+        <h2>Types of Tennis Shots</h2>
+        <ul>
+            <li><strong>Forehand:</strong> A shot made by swinging the racket across one's body with the hand moving
+                palm-first.</li>
+            <li><strong>Backhand:</strong> A shot made by swinging the racket away from one's body with the back of the
+                hand leading.</li>
+            <li><strong>Serve:</strong> The shot that starts a point, usually hit overhead from behind the baseline.
+            </li>
+            <li><strong>Volley:</strong> A shot hit before the ball bounces on the ground, typically played near the
+                net.</li>
+            <li><strong>Tweener:</strong> A trick shot played between the legs, usually when chasing down a lob.</li>
+        </ul>
+    </section>
+    <!-- <section id="padder"></section> -->
+
+    <section id="gallery">
+
+        <div class="slideshow-container">
+            <div class="mySlides">
+                <img src="https://photo-assets.usopen.org/images/pics/large/c_USO-2018-History-2048x1152-PrizeMoney.jpg" alt="Image 1">
+                <div class="text">US Open Cups</div>
+            </div>
+            <div class="mySlides">
+                <img src="https://images.prismic.io/fft-rg-commun-news/ZmWxLpm069VX1k4x_DUB_1245.JPG?auto=format,compress?auto=compress,format" alt="Image 2">
+                <div class="text">Roland Garros</div>
+            </div>
+            <div class="mySlides">
+                <img src="https://photo-assets.wimbledon.com/images/pics/large/b_KC4_0625.jpg" alt="Image 3">
+                <div class="text">Wimbledon courts</div>
+            </div>
+            <div class="mySlides">
+                <img src="https://photo-assets.wimbledon.com/images/pics/large/b_20230703_groundsaerial_bbb111092_706.jpg" alt="Image 4">
+                <div class="text">Bird's eye view</div>
+            </div>
+            <div class="mySlides">
+                <img src="https://photo-assets.wimbledon.com/images/pics/large/b_240707_0038_alcaraz_ew102965.jpg" alt="Image 5">
+                <div class="text">Alcaraz Flying to catch a ball</div>
+            </div>
+            <div class="mySlides">
+                <img src="https://images.prismic.io/fft-rg-commun-news/ZmXNeJm069VX1k7J_CL201185CarlosAlcarazAlexanderZverev.JPG?auto=format,compress?auto=compress,format" alt="Image 6">
+                <div class="text">A tense final match</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+    </section>
+
+    <section id="padder"></section>
+
+    <footer>
+        <!-- <p>Official Sites:
+            International Tennis Federation (ITF)
+            Association of Tennis Professionals (ATP)
+            Women's Tennis Association (WTA)
+            Wimbledon
+            US Open
+            French Open (Roland-Garros)
+            Australian Open</p> -->
+        <p>© 2024 Tennis. All rights reserved. | Terms of Service | Privacy Policy</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
