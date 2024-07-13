@@ -1,0 +1,22 @@
+.note{
+    height: 300px;
+    width: 200px;
+    background-color: paleturquoise;
+    color:black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.note textarea{
+    height: 190px;
+}
+.note_text{
+    flex:1;
+    background-color: transparent;
+    font-size: .85rem;
+    resize: none;
+    line-height: 1.8rem;
+    width: 95%;
+    padding: 5px;
+    margin: 5px;
+}

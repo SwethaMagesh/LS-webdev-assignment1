@@ -1,0 +1,12 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    background-color: bisque;
+    height: 100%;
+  }
+.sidebar button{
+    margin-top:20%;
+    margin-bottom: 20%;
+}

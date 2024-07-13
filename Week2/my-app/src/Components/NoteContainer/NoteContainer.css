@@ -1,0 +1,31 @@
+.note-container-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    height: 90%;
+    gap:20px;
+    overflow-y: auto;
+}
+.note-container{
+    width: 100%;
+}
+.nheader{
+    
+    margin:10px;
+    padding: 10px;
+}
+.nheader h1{
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.dark{
+    background-color: #282c34 !important;
+    color: white !important;
+}
+.light{
+    background-color: white !important;
+    color: black !important;
+}
